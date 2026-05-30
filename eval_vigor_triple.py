@@ -35,14 +35,14 @@ class Configuration:
     ground_cutting = 0                 # cut ground upper and lower
     
     # # Checkpoint to start from same
-    checkpoint_start_1 = '...' 
-    checkpoint_start_2 = '...'
-    checkpoint_start_3 = '...'
+    checkpoint_start_1 = 'Raw model path' 
+    checkpoint_start_2 = 'BEV model path'
+    checkpoint_start_3 = 'Polar model path'
 
     # Checkpoint to start from cross
-    # checkpoint_start_1 = '...' 
-    # checkpoint_start_2 = '...'
-    # checkpoint_start_3 = '...'
+    # checkpoint_start_1 = 'Raw model path' 
+    # checkpoint_start_2 = 'BEV model path'
+    # checkpoint_start_3 = 'Polar model path'
     # set num_workers to 0 if on Windows
     num_workers: int = 0 if os.name == 'nt' else 4 
     
