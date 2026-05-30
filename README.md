@@ -8,7 +8,7 @@ The code is currently being organized and will be continuously updated.
 
 Please prepare the datasets by yourself, including **CVUSA**, **CVACT**, and **VIGOR**.
 
-You may follow the dataset preparation protocol of [TransGeo](https://github.com/Jeff-Zilence/TransGeo2022).
+You may follow the dataset preparation protocol of [Sample4Geo](https://github.com/Skyy93/Sample4Geo).
 
 After downloading the datasets, please modify the corresponding dataset paths in the dataloader or evaluation scripts according to your local environment.
 
@@ -57,7 +57,6 @@ Please download the corresponding checkpoint and place it under the project dire
 This project is built upon and inspired by several excellent open-source projects, including:
 
 * [Sample4Geo](https://github.com/Skyy93/Sample4Geo)
-* [TransGeo](https://github.com/Jeff-Zilence/TransGeo2022)
 * [ConvNeXt](https://github.com/facebookresearch/ConvNeXt)
 
 We sincerely thank the authors for their great work.
