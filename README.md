@@ -48,7 +48,9 @@ The training code is currently being organized and will be released later.
 
 ## Pretrained Models
 
-The pretrained weights are currently being organized and will be released later.
+The pretrained weights are available at [CAM-Net](https://huggingface.co/Zilong0909/CAM-Net).
+
+Please download the corresponding checkpoint and place it under the project directory
 
 ## Acknowledgement
 
