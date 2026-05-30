@@ -35,9 +35,9 @@ class Configuration:
 
         
     # Checkpoint to start from
-    checkpoint_start_1 = '...'
-    checkpoint_start_2 = '...'
-    checkpoint_start_3 = '...'
+    checkpoint_start_1 = 'Raw model path'
+    checkpoint_start_2 = 'BEV model path'
+    checkpoint_start_3 = 'Polar model path'
 
 
     # set num_workers to 0 if on Windows
